@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * Created by jeansmits on 23/06/15.
  */
-@WebServlet(urlPatterns = "/hello.html")
+@WebServlet(urlPatterns = "/helloservlet.html")
 public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
